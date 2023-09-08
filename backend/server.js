@@ -8,7 +8,6 @@ let dbConfig = require('./database/db');
 const studentRoute = require('../backend/routes/student.route')
 
 // Configure mongoDB Database
-
 mongoose.connect(dbConfig.db, {
 	useNewUrlParser: true,
 	useUnifiedTopology: true,
